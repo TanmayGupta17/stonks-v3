@@ -7,6 +7,7 @@ import {
   SafeAreaView,
   StatusBar,
   ScrollView,
+  TextInput
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { FontAwesome5 } from "@expo/vector-icons";
@@ -225,6 +226,19 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
               style={styles.buttonIcon}
             />
             <Text style={styles.buttonText}>Stock News</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.navButton, { backgroundColor: "#112eca" }]}
+            onPress={() => router.push("/match")}
+          >
+            <FontAwesome5
+              name="match"
+              size={18}
+              color="#fff"
+              style={styles.buttonIcon}
+            />
+            <Text style={styles.buttonText}>Match the Keyword</Text>
           </TouchableOpacity>
         </View>
 

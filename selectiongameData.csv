@@ -1,0 +1,13 @@
+id,name,ticker,basePrice,trend,volatility
+1,Tata Consultancy,TCS,3400,up,0.3
+2,Infosys Ltd,INFY,1600,stable,0.2
+3,Reliance Industries,RELIANCE,2700,up,0.4
+4,HDFC Bank,HDFCBANK,1500,stable,0.2
+5,Zomato,ZOMATO,120,volatile,0.7
+6,Wipro Ltd,WIPRO,400,down,0.3
+7,Tata Motors,TATAMOTORS,650,up,0.5
+8,ICICI Bank,ICICIBANK,950,stable,0.2
+9,Adani Enterprises,ADANIENT,2200,volatile,0.8
+10,Asian Paints,ASIANPAINT,3100,down,0.3
+11,Bajaj Finance,BAJFINANCE,6800,volatile,0.6
+12,Bharti Airtel,BHARTIARTL,870,up,0.4
